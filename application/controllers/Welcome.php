@@ -20,6 +20,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+<<<<<<< HEAD
 		$this->load->view('welcome');
+=======
+		$this->load->view('welcome_message');
+>>>>>>> origin/master
 	}
 }
